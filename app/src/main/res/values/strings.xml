@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Lamigo</string>
+    <string name="title_activity_forum">Forum</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+    <string name="email_invalid">Invalid email!</string>
+    <string name="username_taken">Username already taken</string>
+    <string name="username_invalid">Username must contain alphabetic character and number</string>
+    <string name="password_length">Password must be between 5 and 50 characters long</string>
+    <string name="password_characters">Password must contain special character and number</string>
+    <string name="title_activity_thread">ThreadActivity</string>
+    <string name="tab_text_1">Posts</string>
+    <string name="tab_text_2">Reply to thread</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="country">
+        <item>Choose Language</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>France</item>
+        <item>Spanish</item>
+        <item>German</item>
+    </string-array>
+
+    <string name="prompt">Choose the language..</string>
+
+</resources>

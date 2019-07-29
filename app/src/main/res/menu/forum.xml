@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_icon"
+        android:title="@string/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item android:title="Filter by language : English"
+          android:id="@+id/filter"/>
+    <item android:title="Filter by language : Indonesian"
+        android:id="@+id/filter2"/>
+    <item android:title="Filter by language : France"
+        android:id="@+id/filter3"/>
+    <item android:title="Filter by language : Spanish"
+        android:id="@+id/filter4"/>
+    <item android:title="Filter by language : German"
+        android:id="@+id/filter5"/>
+</menu>
+

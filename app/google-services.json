@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170694521101",
+    "firebase_url": "https://lamigo-79356.firebaseio.com",
+    "project_id": "lamigo-79356",
+    "storage_bucket": "lamigo-79356.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170694521101:android:7e16b4cb9176db63",
+        "android_client_info": {
+          "package_name": "edu.bluejack17_2.lamigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170694521101-d546tosce3hl2fkdkkls8a1nrpsig833.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.bluejack17_2.lamigo",
+            "certificate_hash": "8472cf8935f2f88ff43d4246eccbcd7598645372"
+          }
+        },
+        {
+          "client_id": "170694521101-blofuh6vmm81u9o7pk0pr0ufokjtigmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqgslTFCmAWJs4OCutRPrS2gcirkFBCHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170694521101-blofuh6vmm81u9o7pk0pr0ufokjtigmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

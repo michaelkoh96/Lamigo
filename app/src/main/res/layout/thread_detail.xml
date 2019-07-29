@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ThreadActivity$PlaceholderFragment">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/threadDetailCard"
+        android:layout_width="380dp"
+        android:layout_height="209dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/detailDate"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="8dp"
+                android:text="date"
+                android:textAlignment="textEnd"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/detailAuthor"
+                android:layout_width="135dp"
+                android:layout_height="19dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Ferdy Tarawan"
+                android:textColor="@color/com_facebook_blue"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toStartOf="@+id/commentPoints"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/detailDesc"
+                android:layout_width="360dp"
+                android:layout_height="78dp"
+                android:layout_marginBottom="44dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Comments"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detailTitle" />
+
+            <!--<Button-->
+                <!--android:id="@+id/dupvoteBtn"-->
+                <!--android:layout_width="127dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_marginStart="4dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:drawableLeft="@drawable/up"-->
+                <!--android:drawableTint="@color/colorAccent"-->
+                <!--android:text="Upvote"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/detailDesc"-->
+                <!--app:layout_constraintVertical_bias="0.857" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/ddownvoteBtn"-->
+                <!--android:layout_width="127dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:background="?android:attr/selectableItemBackground"-->
+                <!--android:drawableLeft="@drawable/down"-->
+                <!--android:drawableTint="@color/colorAccent"-->
+                <!--android:text="Downvote"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintStart_toEndOf="@+id/dupvoteBtn"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/detailDesc"-->
+                <!--app:layout_constraintVertical_bias="1.0" />-->
+
+            <Button
+                android:id="@+id/shareBtn"
+                android:layout_width="140dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawableLeft="@drawable/share"
+                android:drawableTint="@color/colorAccent"
+                android:text="Share"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.433"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detailDesc"
+                app:layout_constraintVertical_bias="0.444" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/detailPoints"-->
+                <!--android:layout_width="25dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_marginEnd="4dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="0"-->
+                <!--android:textAlignment="textEnd"-->
+                <!--app:layout_constraintBottom_toTopOf="@+id/textView"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/textView4"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="21dp"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_marginEnd="36dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="points"-->
+                <!--app:layout_constraintBottom_toTopOf="@+id/textView"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/detailDate"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+            <TextView
+                android:id="@+id/detailTitle"
+                android:layout_width="349dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:text="Thread Title"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

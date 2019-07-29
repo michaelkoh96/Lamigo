@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colotTextIcon">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="redBackground">#c62828</color>
+    
+    <!-- for gradient -->
+    <color name="red_light_2">#e57373</color>
+    <color name="red_light_1">#ef5350</color>
+    <color name="red">#f44336</color>
+    <color name="red_dark_1">#e53935</color>
+    <color name="red_dark_2">#d32f2f</color>
+    <color name="red_dark_3">#c62828</color>
+
+
+    <color name="blue">#2196f3</color>
+
+</resources>
